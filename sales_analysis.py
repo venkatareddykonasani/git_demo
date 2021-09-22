@@ -14,3 +14,11 @@ print("unitsSold.mean is ", Sales["unitsSold"].median())
 #Describe
 print(Sales["unitsSold"].describe())
 print(Sales["custCountry"].value_counts())
+
+#Describe
+print(Sales["unitsSold"].describe())
+print(Sales["custCountry"].value_counts())
+
+#Describe
+print(Sales["unitsSold"].describe())
+print(Sales["custCountry"].value_counts())
