@@ -8,5 +8,12 @@ print(Sales.info())
 print("unitsSold.mean is ", Sales["unitsSold"].mean())
 print("salesChannels \n", Sales["salesChannel"].value_counts())
 
+print("unitsSold.mean is ", Sales["unitsSold"].median())
+
+
+
+
+
+
 #Describe
 print(Sales["unitsSold"].describe())
