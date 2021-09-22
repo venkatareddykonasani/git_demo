@@ -10,3 +10,6 @@ print(mean_units)
 
 median_units=Sales["unitsSold"].median()
 print(median_units)
+
+Sales["unitsSold"].describe()
+print(Sales["productSold"].value_counts())
